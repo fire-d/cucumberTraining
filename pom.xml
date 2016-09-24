@@ -11,7 +11,6 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <github.global.server>github</github.global.server>
   </properties>
   <distributionManagement>
     <repository>
@@ -129,4 +128,8 @@
     <url>${gitIssues}</url>
     <system>git</system>
   </issueManagement>
+  <ciManagement>
+    <system>jenkins</system>
+    <url>${jenkinsAddress}</url>
+  </ciManagement>
 </project>
